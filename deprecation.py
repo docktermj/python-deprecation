@@ -32,7 +32,9 @@ class SomeClass:
 
 # -- Main ---------------------------------------------------------------------
 
-some_old_function(1,2)
+if __name__ == "__main__":
 
-my_class = SomeClass()
-my_class.some_old_method(3,4)
+    some_old_function(1,2)
+
+    my_class = SomeClass()
+    my_class.some_old_method(3,4)
